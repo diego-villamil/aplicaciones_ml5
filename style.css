@@ -1,0 +1,74 @@
+#choose-file{
+    height: 0 ;
+    width: 0 ;
+    overflow: hidden;
+}
+.wrapper{
+    background-color: #ffffffb2
+    ;
+}
+body{
+    background-color: #fbfbfbfb;
+}
+label{
+    margin: 0px;
+}
+.buttomList{
+    gap: 15px;
+}
+
+/* Estilos para el popup */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* fondo oscuro semi-transparente */
+    display: none; /* ocultar inicialmente */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: auto;
+    max-height: 500px;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* sombra */
+  }
+  
+  #close-popup {
+    margin-top: 10px;
+  }
+
+  #image-container {
+    position: relative;
+    display: inline-block;
+  }
+  #objectCanvas {
+    position: relative; /* Ajustar la posición según sea necesario */
+    display: block; /* Asegurarse de que el canvas sea un elemento de bloque */
+    margin: auto; /* Centrar el canvas horizontalmente */
+    
+  }
+  
+  #videoContainer {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    margin-bottom: 20px;
+  }
+  #video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
